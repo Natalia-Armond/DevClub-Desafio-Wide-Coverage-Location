@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Wide Coverage Location</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" id="loginLink">Log in</a></li>
+                <li><button class="sign-up-button">Sign up</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="wide-coverage">
+            <div class="image-container">
+                <img src="./img/Wide-coverage-location.png" alt="People waving with phones">
+            </div>
+            <div class="content">
+                <h2>Wide coverage location</h2>
+                <p>Shared rides, there's lots to do in your city, and we've got the rides to help you enjoy it all. And
+                    they're all available right from your app.</p>
+                <button class="learn-more-button">Learn more</button>
+            </div>
+        </section>
+    </main>
+    <!-- Modais -->
+    <div id="loginModal" class="hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <input type="text" placeholder="Usuário" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="signupModal" class="hidden">
+        <div class="modal-content">
+            <span class="close-signup">&times;</span>
+            <h2>Cadastro</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
